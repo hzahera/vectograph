@@ -1,7 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from vectograph.utils import create_experiment_folder
-from vectograph.transformers import KGSave, GraphGenerator
-import sklearn
 import pandas as pd
 
 
